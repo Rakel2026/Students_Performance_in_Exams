@@ -2,7 +2,7 @@
 Estudio del rendimiento de los estudiantes en los exámenes
 
 
-Este estudio trata de averiguar la influencia de los antecedentes de los padres, la preparación para las pruebas, etc., en el rendimiento de los estudiantes.
+EneEste estudio tratamos de averiguar la influencia de los antecedentes de los padres, la preparación para las pruebas, etc., en el rendimiento de los estudiantes.
 
 En esta base se recogen los datos de 1.000 estudiantes de secundaria de EEUU estructurada en las siguientes columnas:
 
@@ -44,6 +44,6 @@ En esta base se recogen los datos de 1.000 estudiantes de secundaria de EEUU est
     - Writing score (int): notas en escritura (0-100)
 
 
-La base de datos parece tener potencial para realizar un análisis descriptivo bastante completo. Permite estudiar el rendimiento académico de 1.000 estudiantes e identificar patrones relacionados con el género, el contexto socioeconómico, el nivel educativo de los padres y la preparación previa para los exámenes.
+La base de datos permite estudiar el rendimiento académico de 1.000 estudiantes e identificar patrones relacionados con el género, el contexto socioeconómico, el nivel educativo de los padres y la preparación previa para los exámenes.
 
-Esto permite estudiar tanto el rendimiento académico como las diferencias entre distintos perfiles de estudiantes.
+Además del rendimiento académico podemos estudiar las diferencias entre distintos perfiles de estudiantes.
