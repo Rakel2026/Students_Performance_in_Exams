@@ -2,7 +2,7 @@
 Estudio del rendimiento de los estudiantes en los exámenes
 
 
-EneEste estudio tratamos de averiguar la influencia de los antecedentes de los padres, la preparación para las pruebas, etc., en el rendimiento de los estudiantes.
+En este estudio tratamos de averiguar la influencia de los antecedentes de los padres, la preparación para las pruebas, etc., en el rendimiento de los estudiantes.
 
 En esta base se recogen los datos de 1.000 estudiantes de secundaria de EEUU estructurada en las siguientes columnas:
 
