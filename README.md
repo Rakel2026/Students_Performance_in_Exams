@@ -26,6 +26,7 @@ En esta base se recogen los datos de 1.000 estudiantes de secundaria de EEUU est
         * high school
         * some high school
         * bachelor`s degree
+        * master`s degree
 
     - Lunch (string): tipo de almuerzo
 
