@@ -72,6 +72,27 @@ plt.title("Distribución del alumnado según rendimiento")
 plt.savefig("../../img/Grafico_1_3.jpg", dpi=300, bbox_inches="tight")
 
 
+# Contexto del grupo de bajo rendimiento, siendo este que las 3 puntuaciones sean menores de 50 (sobre 100)
+
+gender_bajorend = bajo_rendimiento["gender"].mode().unique()
+race_bajorend = bajo_rendimiento["race_ethnicity"].mode().unique()
+parental_bajorend = bajo_rendimiento["parental_level_of_education"].mode().unique()
+lunch_bajorend = bajo_rendimiento["lunch"].mode().unique()
+test_bajorend = bajo_rendimiento["test_preparation_course"].mode().unique()
+
+print("Las características mayoritarias del grupo de bajo rendimiento son: ")
+print("")
+print("Gender: ", gender_bajorend.value_counts())
+print("----------------------")
+print("Race/Ethnicity: ", race_bajorend.value_counts())
+print("----------------------")
+print("Parental level of Education: ", parental_bajorend.value_counts())
+print("----------------------")
+print("School Lunch Program: ", lunch_bajorend.value_counts())
+print("----------------------")
+print("Test Preparation Course: ", test_bajorend.value_counts())
+
+
 # Calculamos el porcentaje de alumnos que representan los estudiantes de alto rendimmiento en las 3 competencias (notas >70)
 
 alto_rendimiento = sp[(sp["math_score"] > 70) & (sp["reading_score"] > 70) & (sp["writing_score"] > 70)]
@@ -92,6 +113,28 @@ plt.pie(valores, labels=etiquetas, autopct="%1.2f%%", startangle=90, explode=(0.
 plt.title("Distribución del alumnado según rendimiento")
 
 plt.savefig("../../img/Grafico_1_4.jpg", dpi=300, bbox_inches="tight")
+
+
+# Contexto del grupo de alto rendimiento, siendo este que las 3 puntuaciones sean mayores de 70 (sobre 100)
+
+gender_altorend = alto_rendimiento["gender"].mode().unique()
+race_altorend = alto_rendimiento["race_ethnicity"].mode().unique()
+parental_altorend = alto_rendimiento["parental_level_of_education"].mode().unique()
+lunch_altorend = alto_rendimiento["lunch"].mode().unique()
+test_altorend = alto_rendimiento["test_preparation_course"].mode().unique()
+
+print("Las características mayoritarias del grupo de alto rendimiento son: ")
+print("")
+print("Gender: ", gender_altorend.value_counts())
+print("----------------------")
+print("Race/Ethnicity: ", race_altorend.value_counts())
+print("----------------------")
+print("Parental level of Education: ", parental_altorend.value_counts())
+print("----------------------")
+print("School Lunch Program: ", lunch_altorend.value_counts())
+print("----------------------")
+print("Test Preparation Course: ", test_altorend.value_counts())
+
 
 
 print("Análisis 1 terminado y creación de gráficos hecha")

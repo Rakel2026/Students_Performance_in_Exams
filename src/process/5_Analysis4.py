@@ -68,3 +68,4 @@ plt.savefig("../../img/Grafico_4_3.jpg", dpi=300, bbox_inches="tight")
 print("Análisis 4 realizado y creados los gráficos")
 
 # FIN
+
