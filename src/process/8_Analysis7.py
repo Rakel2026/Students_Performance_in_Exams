@@ -7,14 +7,12 @@ import matplotlib.pyplot as plt
 from scipy.stats import ttest_ind
 
 
-# ANÁLISIS 6 - Análisis de correlaciones entre asignaturas
+# ANÁLISIS 7 - Crear un indicador global de rendimiento académico y analizar los grupos de bajo y alto rendimiento
 
 # Leo el csv
 
 sp = pd.read_csv("../../data/StudentsPerformance_depurado.csv", sep =",")
 
-
-# ANÁLISIS 7 - Crear un indicador global de rendimiento académico y analizar los grupos de bajo y alto rendimiento
 
 # Lo primero es crear una variable clasificatoria en base a la variable ya creada global_score en base a:
 """

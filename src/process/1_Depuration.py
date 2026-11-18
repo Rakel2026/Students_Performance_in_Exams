@@ -24,6 +24,7 @@ sp["global_score"] = sp["global_score"].round(2)
 
 sp.to_csv("../../data/StudentsPerformance_depurado.csv", index=False, encoding="utf-8-sig")
 
+
 print("Depuración terminada y creación del nuevo csv hecho")
 
 
