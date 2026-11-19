@@ -5,6 +5,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from scipy.stats import ttest_ind
 
+
 def ejecutar_depuracion():
 
     # LEO BASE DE DATOS
