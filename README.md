@@ -207,6 +207,7 @@ El proyecto se desarrolla utilizando Python y Jupyter Notebook, con las siguient
 | Matplotlib | Creación de gráficos y visualizaciones. |
 | Seaborn | Representación estadística y mapas de calor. |
 | SciPy | Contrastes estadísticos y pruebas de hipótesis. |
+| Time | Funciones con el tiempo en Python. |
 
 ## 6. Estructura del repositorio
 
